@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Blog Site</title>
+
+     <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+
+     <link rel="stylesheet" href="assets/css/all.min.css">
+     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+     <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Cookie&family=Festive&family=IBM+Plex+Sans+Thai+Looped:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@1,400;1,700;1,800&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+     <link rel="stylesheet" href="assets/css/style.css">
+     <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    
+
+    <!-- header section start here-->
+
+    <!-- <div id="header">
+        <div class="container">
+            <div id="fixedHeader">
+                <div class="fixedHeader__top">
+                    <div class="Header__top__icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="Header__top__logo">
+                        <h1>Westa.</h1>
+                        <p>Personal Blog Templete</p>
+                    </div>
+                    <div class="Header__top__searchbar">
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="fixedHeader__bottom">
+                    <ul>
+                        <li><a class="active" href="#">HOME</a>
+                            <ul>
+                                <li><a href="home.html">Home Fullwidth</a></li>
+                                <li><a href="index.html">Home Grid</a></li>
+                                <li><a href="#">Home List</a></li>
+                                <li><a href="error.html">404 Page</a></li>
+                                <li><a href="single_post.html">Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LIFESTYLE</a>
+                            <ul>
+                                <li><a href="#">Categorie Fullwidth</a></li>
+                                <li><a href="#">Categorie Grid</a></li>
+                                <li><a href="category_list.html">Categorie List</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">JOURNEY</a></li>
+                        <li><a href="#">INSPIRATION</a></li>
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="contact.html"> CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    
+
+    <div id="header">
+        <div class="container">
+            <div id="fixedHeader">
+                <div class="fixedHeader__top">
+                    <div class="Header__top__icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f" ></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <div class="Header__top__logo">
+                        <a href="index.html">Westa.</a>
+                        <p>Personal Blog Templete</p>
+                    </div>
+                    <div class="Header__top__searchbar">
+                        <a data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <i class="fa-solid fa-align-justify"></i>
+                    </div>
+                </div>
+                <div class="fixedHeader__bottom">
+                    <ul>
+                        <li><a class="active" href="#">HOME</a>
+                            <ul>
+                                <li><a class="active" href="home.html">Home Fullwidth</a></li>
+                                <li><a href="index.html">Home Grid</a></li>
+                                <li><a href="error.html">404 Page</a></li>
+                                <li><a href="single_post.html">Single Post</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">LIFESTYLE</a>
+                            <ul>
+                                <li><a href="category_list.html">Categorie List</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="journey.html">JOURNEY</a></li>
+                        <li><a href="inspiration.html">INSPIRATION</a></li>
+                        <li><a href="about.html">ABOUT ME</a></li>
+                        <li><a href="contact.html"> CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- header section end here-->
+
+
+     <!-- mobile menu start here -->
+     <div id="mobile__header">
+        <div class="container">
+            <div id="mobile__fixedHeader">
+                <div class="mobile__fixedHeader__top">
+                    <div class="mobile__Header__top__searchbar">
+                        <a data-bs-toggle="modal" href="#exampleModalToggle"><i class="fa-solid fa-magnifying-glass"></i></a>
+                        <div class="mobile__Header__top__logo">
+                            <a href="home.html">Westa.</a>
+                            <p>Personal Blog Templete</p>
+                        </div>
+                        <a href="#"><i class="fa-solid fa-align-justify menu__bar"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mobile__menu">
+        <ul>
+            <li>
+                <div class="down__arrow">
+                    <a class="active drop__home" href="#">HOME</a>
+                    <i class="fa-solid fa-angle-down home"></i>
+                </div>
+                <ul class="home__ul">
+                    <li><a href="#">Home Fullwidth</a></li>
+                    <li><a href="index.html">Home Grid</a></li>
+                    <li><a href="error.html">404 Page</a></li>
+                    <li><a href="single_post.html">Single Post</a></li>
+                </ul>
+            </li>
+            <li>
+                <div class="down__arrow">
+                    <a class="active drop__lifestyle" href="#">LIFESTYLE</a>
+                    <i class="fa-solid fa-angle-down lifestyle"></i>
+                </div>
+                <ul class="lifestyle__ul">
+                    <li><a href="category_list.html">Categorie List</a></li>
+                </ul>
+            </li>
+            <li><a href="journey.html">JOURNEY</a></li>
+            <li><a href="inspiration.html">INSPIRATION</a></li>
+            <li><a href="about.html">ABOUT ME</a></li>
+            <li><a href="contact.html"> CONTACT</a></li>
+        </ul>
+    </div>
+    <!-- mobile menu end here -->
+
+
+    <!-- slider section start here -->
+    <div class="banner_section">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-image">
+                            <img src="assets/image/imgcat1.jpg" />
+                            <div class="slide-content">
+                                <a class="a1" href="#">Cat Lover</a>
+                                <a class="a2" href="#">Fall In Love With Cat </a>
+                                <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                                <a class="a3" href="#"> Learn More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-image">
+                            <img src="assets/image/sunset-hd-background-photos-12-scaled.jpg" />
+                            <div class="slide-content">
+                                <a class="a1" href="#">Journey</a>
+                                <a class="a2" href="#">Fall In Love With Cat </a>
+                                <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                                <a class="a3" href="#"> Learn More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-image">
+                            <img src="assets/image/img4cafe.jpg" />
+                            <div class="slide-content">
+                                <a class="a1" href="#">Lifestyle</a>
+                                <a class="a2" href="#">Fall In Love With Cat </a>
+                                <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                                <a class="a3" href="#"> Learn More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-image">
+                            <img src="assets/image/img5coffee.jpg" />
+                            <div class="slide-content">
+                                <a class="a1" href="#">Coffee Lover</a>
+                                <a class="a2" href="#">Fall In Love With Cat </a>
+                                <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                                <a class="a3" href="#"> Learn More </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button"></div>
+                    <div class="swiper-button-prev swiper-button"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="banner_section">
+        <div class="container">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-image">
+                            <img src="assets/image/imgcat1.jpg" />
+                            <div class="slide-content">
+                                <a class="a1" href="#">LifeStyle</a>
+                                <a class="a2" href="#">Fall In Love With Cat </a>
+                                <p class="para-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                                <a class="a3" href="#"> Learn More </a>
+                            </div>
+                        </div>
+                    </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="assets/image/img4cafe.jpg" alt="">
+                        <div class="slide-content">
+                            <a class="a1" href="#">Journey</a>
+                            <a class="a2" href="#">All You Need To Know About Forest</a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                            <a class="a3" href="#"> Read More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="assets/image/img4cafe.jpg" alt="">
+                        <div class="slide-content">
+                        <a class="a1" href="#">LifeStyle</a>
+                        <a class="a2" href="#">Skills That You Can Learn From Book</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                        <a class="a3" href="#"> Learn More </a>
+                    </div>
+                </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="assets/image/sunset-hd-background-photos-12-scaled.jpg" alt="">
+                        <div class="slide-content">
+                        <a class="a1" href="#">LifeStyle</a>
+                        <a class="a2" href="#">Skills That You Can Learn From Book </a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                        <a class="a3" href="#"> Learn More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-image">
+                        <img src="assets/image/img5coffee.jpg" alt="">
+                        <div class="slide-content">
+                            <a class="a1" href="#">LifeStyle</a>
+                            <a class="a2" href="#">Skills That You Can Learn From Book </a>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper</p>
+                            <a class="a3" href="#"> Learn More </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- slider section ending here -->
+       
+    
+    <!-- blog post grid section start here -->
+    <div class="blog__post__grid">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-12">
+                    <!-- blog post start-->
+                    <div class="blog__post__item">
+                        <div class="row">
+                            <!-- First line of blog-post start -->
+                            <div class="col-md-12 blog-post">
+                                <div class="blog-post-wraper-top">
+                                    <div class="blog-inspiration">
+                                        <a href="#">Inspiration</a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">Why Glass Had Been So Popular Till Now?</a>
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li><a href="#">By Westa</a></li>
+                                            <li>-</li>
+                                            <li> Novermber 6 1018</li>
+                                            <li>-</li>
+                                            <li><a href="#">1 comment</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="blog-post-image">
+                                    <a href="single_post.html"><img src="assets/image/img1.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-post-wraper-bottom">
+                                    <div class="blog-paragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper. Duis pretium convallis odio non varius.</p>
+                                    </div>
+                                    <div class="itemssss">
+                                        <div class="inner-section-one">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                        <div class="inner-section-two">
+                                            <p>Share: </p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__post__item">
+                        <div class="row">
+                            <!-- First line of blog-post start -->
+                            <div class="col-md-12 blog-post">
+                                <div class="blog-post-wraper-top">
+                                    <div class="blog-inspiration">
+                                        <a href="#">Inspiration</a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">Fall In Love With Cat</a>
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li><a href="#">By Westa</a></li>
+                                            <li>-</li>
+                                            <li> Novermber 6 1018</li>
+                                            <li>-</li>
+                                            <li><a href="#">1 comment</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="blog-post-image">
+                                    <a href="single_post.html"><img src="assets/image/img3.jpg" alt=""></a>
+                                </div>
+                                <div class="blog-post-wraper-bottom">
+                                    <div class="blog-paragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper. Abir pretium convallis odio non varius.</p>
+                                    </div>
+                                    <div class="itemssss">
+                                        <div class="inner-section-one">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                        <div class="inner-section-two">
+                                            <p>Share: </p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__post__item">
+                        <div class="row">
+                            <!-- First line of blog-post start -->
+                            <div class="col-md-12 blog-post">
+                            <div class="blog-post-wraper-top">
+                                    <div class="blog-inspiration">
+                                        <a href="#">Inspiration</a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">How To Get People To Like Cafet</a>
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li><a href="#">By Westa</a></li>
+                                            <li>-</li>
+                                            <li> Novermber 6 1018</li>
+                                            <li>-</li>
+                                            <li><a href="#">1 comment</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="blog-post-image">
+                                    <a href="single_post.html"><img src="assets/image/img5.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-post-wraper-bottom">
+                                    <div class="blog-paragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper. Duis pretium convallis odio non varius.</p>
+                                    </div>
+                                    <div class="itemssss">
+                                        <div class="inner-section-one">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                        <div class="inner-section-two">
+                                            <p>Share: </p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__post__item">
+                        <div class="row">
+                            <!-- First line of blog-post start -->
+                            <div class="col-md-12 blog-post">
+                            <div class="blog-post-wraper-top">
+                                    <div class="blog-inspiration">
+                                        <a href="#">Inspiration</a>
+                                    </div>
+                                    <div class="blog-title">
+                                        <a href="#">Fall In Love With Cat</a>
+                                    </div>
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li><a href="#">By Westa</a></li>
+                                            <li>-</li>
+                                            <li> Novermber 6 1018</li>
+                                            <li>-</li>
+                                            <li><a href="#">1 comment</a></li>
+                                        </ul>
+                                    </div>
+                            </div>
+                            <div class="blog-post-image">
+                                    <a href="single_post.html"><img src="assets/image/img3.jpg" alt=""></a>
+                            </div>
+                            <div class="blog-post-wraper-bottom">
+                                    <div class="blog-paragraph">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lobortis commodo ullamcorper. Duis pretium convallis odio non varius.</p>
+                                    </div>
+                                    <div class="itemssss">
+                                        <div class="inner-section-one">
+                                            <a href="#">Read More</a>
+                                        </div>
+                                        <div class="inner-section-two">
+                                            <p>Share: </p>
+                                            <ul>
+                                                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                                <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                            </ul>
+                                        </div>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- blog post end --> 
+                </div>
+                <!-- sidebar  start-->
+                <div class="col-lg-3 col-12">
+                    <div id="sidebarWrap">
+                        <div id="sidebar">
+                            <div class="sub-sidebar-one wow bounceInUp">
+                                <div class="slidebar-aboutme">
+                                    <h3>About Me</h3>
+                                </div>
+                                <div class="slidebar-image">
+                                    <a href="#"><img src="assets/image/img7.jpg" alt=""></a>
+                                </div>
+                                <div class="sidebar-para">
+                                    <p>Duis pretium convallis odio non varius. Nulla quis lorem metus</p>
+                                </div>
+                                <div class="sidebar-readmore">
+                                    <a href="#">Read More</a>
+                                </div>
+                            </div>
+                            <div class="sub-sidebar-two">
+                                <div class="sub-sidebar-follow">
+                                    <p>follow me</p>
+                                </div>
+                                <div class="sub-sidebar-social">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                        <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sub-sidebar-subscribe">
+                                <div class="sidebar-newsletter">
+                                    <p class="sletter">New Sletter</p>
+                                    <p class="fill-mail">Fill Your E-mail below to subscribe to my newsletter</p>
+                                    <form action="">
+                                        <input type="email" placeholder="Email">
+                                        <button class="form_btn">Subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="sidebar-popularpost-section">
+                                <div class="sidebar-popularpost-section-title">
+                                    <p class="popular-post-title">Popular Post</p>
+                                </div>
+                                
+                                <div class="sidebar-post">
+                                    <div class="sidebar-post-img-section">
+                                        <img src="assets/image/sidebar_popularpostimg1.jpg" alt="">
+                                    </div>
+                                    <div class="sidebar-post-para-section">
+                                        <p class="post-title">The Most Beautiful Green Field on Earth</p>
+                                        <p class="post-details">Paul Newman September 5, 2019</p>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <div class="sidebar-post-img-section">
+                                        <img src="assets/image/sidebar_popularpostimg2.jpg" alt="">
+                                    </div>
+                                    <div class="sidebar-post-para-section">
+                                        <p class="post-title">The Most Beautiful Green Field on Earth</p>
+                                        <p class="post-details">Paul Newman September 5, 2019</p>
+                                    </div>
+                                </div>
+                                <div class="sidebar-post">
+                                    <div class="sidebar-post-img-section">
+                                        <img src="assets/image/sidebar_popularpostimg3.jpg" alt="">
+                                    </div>
+                                    <div class="sidebar-post-para-section">
+                                        <p class="post-title">The Most Beautiful Green Field on Earth</p>
+                                        <p class="post-details">Paul Newman September 5, 2019</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="sub-sidebar-banner">
+                                <img src="assets/image/sidebar_banner1.jpg" alt="">
+                            </div>
+                            
+                            <div class="category-section">
+                                <div class="categorie-title">
+                                    <p>CATEGORY</p>
+                                </div>
+                                <div class="category-list">
+                                    <ul>
+                                        <li><a href="#">Fashion5</a></li>
+                                        <li><a href="#">Food6</a></li>
+                                        <li><a href="#">Photography11</a></li>
+                                        <li><a href="#">Technology6</a></li>
+                                        <li><a href="#">Travel19</a></li>
+                                        <li><a href="#">Blog60</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="recent-post-section">
+                                <p class="recent-post-title">RECENT POST</p>
+                                <div class="recent-post-desc">
+                                    <img src="assets/image/recent-post1.jpg" alt="">
+                                    <p class="trending">Trending</p>
+                                    <p class="check-out">Check Out The Most Awesome VR
+                                        Headset in 2020
+                                    </p>
+                                    <p class="jane">Jane Smith &nbsp; November 7,2019</p>
+                                </div>
+                                <div class="recent-post-desc">
+                                    <img src="assets/image/recent-post2.jpg" alt="">
+                                    <p class="trending">Trending</p>
+                                    <p class="check-out">Check Out The Most Awesome VR
+                                        Headset in 2020
+                                    </p>
+                                    <p class="jane">Jane Smith &nbsp; November 7,2019</p>
+                                </div>
+                                <div class="recent-post-desc">
+                                    <img src="assets/image/recent-post3.jpg" alt="">
+                                    <p class="trending">Trending</p>
+                                    <p class="check-out">Check Out The Most Awesome VR
+                                        Headset in 2020
+                                    </p>
+                                    <p class="jane">Jane Smith &nbsp; November 7,2019</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- sidebar  end-->
+            </div>
+        </div>
+    </div>
+    <!-- blog post grid section end here -->
+
+
+    <!-- pagination section start here -->
+    <div class="pagination__section">
+        <div class="container">
+            <div class="pagination__section__inner">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">...</a></li>
+                    <li><a href="#"><i class="fa-solid fa-arrow-right-long"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- pagination section end here -->
+
+
+    <!-- footer -->
+    <div id="footer">
+        <div class="main-footer-section">
+            <div class="container foot">
+                <div class="row">
+                    <div class="col-md-4">
+                            <div class="footer-page-content">
+                                <div class="footer-title">
+                                    <h3>Westa.</h3>
+                                </div>
+                                <div class="footer-para">
+                                    <p>Suspendisse lobortis commodo ullamcorper. Duis pretium convallis odio non varius.</p>
+                                </div>
+                                <div class="footer-phone">
+                                    <span>Phone: +8801978159172</span>
+                                </div>
+                                <div class="footer-email">
+                                    <p>Email: <a href="#">opedia.technologies@gmail.com</a></p>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-3">
+                            <div class="footer-page-content">
+                                <div class="footer-title">
+                                    <h3>Categories</h3>
+                                </div>
+                                <div class="footer-list">
+                                    <ul>
+                                        <li><a href="#">LifeStyle</a></li>
+                                        <li><a href="#">Journey</a></li>
+                                        <li><a href="#">INSPIRATION</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-5">
+                            <div class="sub-footer-page-content">
+                                <div class="footer-title">
+                                    <h3>Recent Posts</h3>
+                                </div>
+                                <div class="sub-footer-list">
+                                    <ul>
+                                        <li><a href="#">Why Glass Had Been So Popular Till Now?</a></li>
+                                        <li class="sps">November 16, 2018</li>
+                                        <li><a href="#">Fall In Love With Cat</a></li>
+                                        <li class="sps">November 14, 2014</li>
+                                    </ul>
+                                </div>
+                            </div>
+                    </div>
+
+                </div>
+                <div class="footer-foot">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="column8">
+                                <p>2018 © Westa. Personal Blog Template by Feelman.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="column4">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube-square"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+
+
+    <!-- search modal start -->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="">
+                    <input type="text" class="search" name="search" placeholder="Search Here...">
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!-- search modal start -->
+    
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
